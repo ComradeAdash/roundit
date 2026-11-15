@@ -28,6 +28,10 @@ scene.add(roundabout);
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.maxPolarAngle = Math.PI / 2.1; // don't go below the ground
 
+// Let wheel and vertical touch gestures scroll the sidebar over the preview.
+controls.enableZoom = false;
+renderer.domElement.style.touchAction = 'pan-y';
+
 const clock = new THREE.Clock();
 
 renderer.setAnimationLoop(() => {
