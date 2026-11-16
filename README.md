@@ -99,6 +99,14 @@ roundit/
 └── vercel.json                    Deployment configuration
 ```
 
+## Acknowledgments
+
+- ICBC crash data, accessed through the Kaggle dataset configured in the
+  ingestion script.
+- [OpenFreeMap](https://openfreemap.org/) for the map style and tiles used
+  by the application.
+- [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors.
+- The open-source libraries that power the map, interface, and 3D preview.
 
 lorem ipsum. :)
 
